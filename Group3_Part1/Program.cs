@@ -4,80 +4,138 @@
     {
 
         static void Main(string[] args)
-        { 
-            /// test commit 
-            //Console.WriteLine("Hello, World!"); // one row comment
-            ///*
-            //Ingeral types byte, int, long, char, short 
-            //float double 2.65 
-            //decimal 
-            //bool 
-            //string 
-            // */
-            //int r_ = 6;
-            //int a = 5, b = 3, c = 1;
-            //double rr = 2.56;
-            //float rrr = 2.56f;
-            //decimal salaryInMyCompany, yy; //  79,228,162,514,264,337,593,543,950,335
-            //char _t;
-            //salaryInMyCompany = Decimal.One;
-            //yy = 256.31m;
+        {
+            {//var a = 3; 
+             //var b = 20;
+             //var name1 = "Katya";
+             //{ //if(a > 10)
+             //  //{
+             //  //    Console.WriteLine("a more  than 10");
+             //  //}
+             //  //else if(a < 10) 
+             //  //{
+             //  //    Console.WriteLine("a less than 10");
+             //  //}
+             //  //else
+             //  //    Console.WriteLine("a=10");
 
-            //Console.WriteLine("Hello, World!");
-            //Console.WriteLine(salaryInMyCompany);
-            //var test = Console.ReadLine();
+                //    //if(a<=10)
+                //    //    Console.WriteLine("a less or equal than 10");
+                //}
+                //{//if(a == 10)
+                // //{
+                // //    if (b == 10)
+                // //        Console.WriteLine($"a = {a} and b = 10");
+                // //    else
+                // //        Console.WriteLine($"a = {a} and b != 10"); 
+                // //}
+                //}
+                //const int aa = 1;
+                //switch (a)
+                //{
+                //    case aa:
+                //        {
+                //            Console.WriteLine(1);
+                //            break;
+                //        }
+                //    case 3:
+                //        {
+                //            Console.WriteLine(3);
+                //            switch (name1)
+                //            {
+                //                case "Katya_":
+                //                    {
+                //                        Console.WriteLine(name1);
+                //                        break;
+                //                    }
+                //                case "Katya": 
+                //                    {
+                //                        Console.WriteLine(name1);
+                //                        break;
+                //                    }
+                //            }
+                //            break;
+                //        }
+                //    case 4:
+                //        {
+                //            Console.WriteLine(4);
+                //            break;
+                //        }
+                //    case 6:
+                //    case 8:
+                //        {
+                //            Console.WriteLine(8);
+                //            break;
+                //        }
+                //    case 10:
+                //        {
+                //            Console.WriteLine(10);
+                //            break;
+                //        }
+                //    default:
+                //        {
+                //            Console.WriteLine("default");
+                //            break;
+                //        }
+                //}
 
-            //Console.WriteLine(test);
-            //var test1 = 456789;
-            //salaryInMyCompany = 45567m;
 
-            //const double pi = 3.14159;
-            //float float_ = 234;
-            //double double_ = 1234;
+                //var name = "Kris";
+                //Console.WriteLine("My name is " + name + "1213");
+                //Console.WriteLine($"My name is {name} afssad");
 
-            //double_ = float_;
-            //float_ = (float)double_;
+                //// ?:
 
-            // ToBoolean ToByte
+                //var res = a > 10 ? "a>10" : "a<10";
+                //Console.WriteLine(res);
+            }
+            //var a = 100;
+            //while (a < 10) 
+            //{
+            //    Console.WriteLine($"a={a}");
+            //    a++;
+            //}
 
+            //for(int i = 100; i < 10; i++)
+            //{
+            //    Console.WriteLine($"i={i}");
+            //}
 
-            //Console.WriteLine("Input number: ");
-            //var inp = Console.ReadLine();
-            //int test = Convert.ToInt32(inp);
+            //do
+            //{
+            //    Console.WriteLine($"a={a}");
+            //    a++;
+            //}
+            //while (a < 100);
 
-            //Console.WriteLine("Your number :");
-            //Console.WriteLine(test);
+            // break;
 
-            //// + - * / % ++ -- 
+            //int a = 10;
 
-            //var test1 = test + 10;
-            //var test2 = test - 10;
-            //var test3 = test * 10;
-            //double test4 = (Convert.ToDouble(test) / 10);
-            //var test5 = test % 2;
-            //test++;
-            //var test6 = test;
-            //test--;
-            //var test7 = test;
+            //while (a < 20)
+            //{
+            //    Console.WriteLine($"a = {a}");
+            //    a++;
 
+            //    if (a > 15)
+            //        continue;
 
-            //Console.WriteLine(test1);
-            //Console.WriteLine(test2);
-            //Console.WriteLine(test3);
-            //Console.WriteLine(test4);
-            //Console.WriteLine("парне? ");
-            //Console.WriteLine( test5.ToString());
-            //Console.WriteLine(test6);
-            //Console.WriteLine(test7);
+            //    Console.WriteLine($"hello");
+            //}
+            var str = "test";
+            for (; ; )
+            {
+                str += " hello"; 
+                Console.WriteLine($"{str}");
 
+            }
 
-            // && || !
-            bool a = true;
-            bool b = false;
-            Console.WriteLine(a && b);
-            Console.WriteLine(a  || b);
-            Console.WriteLine(!(a && b));
-            // == != > < >= <=
+            while (true)
+            {
+                str += " hello";
+                Console.WriteLine($"{str}");
+            }
+
         }
     }
 }
