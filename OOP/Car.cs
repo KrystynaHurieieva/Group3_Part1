@@ -2,6 +2,11 @@
 {
     public class Car : Machine
     {
+        public static void SayName(string name)
+        {
+            Console.WriteLine($"Hello {name}");
+        }
+
         public int Engine { get; set; }
         public string Model { get; set; }
 

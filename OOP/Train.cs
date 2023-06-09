@@ -11,10 +11,10 @@ namespace OOP
         }
         public override void Move() => Console.WriteLine("Train moved");
 
-        public override int Speed
+        public override int Speed//_speed
         {
             get => speed;
-            set => speed = value + 10;
+            set => speed = value ;
         }
     }
 }
