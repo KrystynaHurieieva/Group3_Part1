@@ -1,4 +1,6 @@
 ﻿
+using OOP;
+
 namespace Group3_Part1
 {
     public class Student : Person
@@ -28,8 +30,10 @@ namespace Group3_Part1
 
     public class Person
     {
-        public string name { get; set; }
+        public string? name { get; set; }
         public int age { get; set; }
+        public Car car { get; set; }
+        public virtual IList<Car> Cars { get; set; }
     }
     public sealed class Teacher : Person
     {
